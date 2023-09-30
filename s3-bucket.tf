@@ -1,5 +1,6 @@
 module "s3_bucket" {
-  source        = "terraform-aws-modules/s3-bucket/aws"
+  source        = "app.terraform.io/y-poltoratskyi-org/s3-bucket"
+  version       = "2.8.0"
 
   bucket        = "my-s3-bucket"
   bucket_prefix = "yurii"
